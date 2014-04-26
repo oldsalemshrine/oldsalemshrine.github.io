@@ -1,0 +1,124 @@
+$primary-color: #50616a;
+$topbar-bg: #fff;
+$topbar-link-color: #333;
+$topbar-link-color-hover: #333;
+$topbar-link-color-active: #333;
+$topbar-link-color-active-hover: #333;
+$topbar-link-font-family: "Average";
+$topbar-link-font-size: 20px; //rem-calc(23);
+$topbar-title-font-size: rem-calc(23);
+$topbar-height: 75px;
+$topbar-link-bg-hover: $primary-color;
+$topbar-link-color-hover: #fff;
+
+@import 'foundation';
+
+div.menu {
+  z-index: 999;
+  //border-bottom:1px solid #ccc;
+}
+
+p {
+  font-size:1.2em;
+  font-family:Georgia;
+}
+
+h2, .title-area a {
+  font-family: "Average";
+  letter-spacing:-.03em;
+}
+
+div.fixed {
+  position:fixed;
+}
+
+div.overlay {
+  margin-top: $topbar-height;
+}
+
+section.headline {
+  margin-top: $topbar-height;
+  padding: 3em 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-image:url('/img/4892164748_61a11f25f3_o_60.jpg');
+  background-size:100%;
+  background-repeat:no-repeat;
+}
+
+section.headline p {
+  margin-top: 100px;
+  color: #FCFFC7;
+  width: 100%;
+  text-align: left;
+  height: 100%;
+  position: relative;
+  font-family: "Average";
+  font-weight:normal;
+  z-index:1;
+  font-size: 2.6em;
+  line-height:1.4em;
+  color:#ffc;
+  text-shadow: 1px 1px 1px #333;
+}
+
+section.content {
+  background: #fff;
+  top: 50em;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+section.content section {
+  padding:2em 0;
+  z-index:9;
+}
+
+section#history {
+  background: #78CBC6;
+  color:#f5f5f5;
+  text-align:justify;
+  h2 {
+    color:#f5f5f5;
+  }
+}
+
+section#cemetery {
+  a {
+    color: #999;
+  }
+  background: $primary-color;
+  color:#f5f5f5;
+  h2 {
+    color:#f5f5f5;
+  }
+}
+
+section#contact {
+  background: #f8f8f8;
+  color:#333;
+  h2 {
+    color:#333;
+  }
+}
+
+p.photo {
+  font-size:14px;
+  font-family:"Helvetica Neue", Arial;
+  text-align:center;
+  img {
+    display:block;
+    border:solid 12px #fff;
+    margin-bottom:8px;
+  }
+  &.right {
+    margin:10px 0 35px 35px;
+  }
+  &.left {
+    margin:10px 35px 35px 0;
+  }
+}
