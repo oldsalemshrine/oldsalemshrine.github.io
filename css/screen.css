@@ -5383,11 +5383,11 @@ section.content section {
   padding: 2em 0;
   z-index: 9; }
 
-section#history {
+section#history, section#newsletters {
   background: #78CBC6;
   color: #f5f5f5;
   text-align: justify; }
-  section#history h2 {
+  section#history h2, section#history h2 {
     color: #f5f5f5; }
 
 section#cemetery {
